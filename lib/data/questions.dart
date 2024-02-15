@@ -2,49 +2,49 @@ import 'package:adv_basics/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UI',
-    ['Widgets', 'Compnents', 'Blocks', 'Functions'],
+    ' Who is the all-time top scorer in FIFA World Cup history?',
+    ['Pele', 'Lionel Messi', 'Cristiano Ronaldo', 'Miroslav Klose'],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('Which soccer player is known as the "The King of Assists', [
+    'Kevin De Bruyne',
+    'Lionel Messi',
+    'Cristiano Ronaldo',
+    'Neymar',
   ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    ' Which country has won the most FIFA World Cup titles?',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Brazil',
+      'Germany',
+      'Argentina',
+      'Italy',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Who won the FIFA Ballon Dor award in 2021?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Lionel Messi',
+      'Cristiano Ronaldo',
+      'Robert Lewandowski',
+      'Neymar',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'What is the official name of the stadium where FC Barcelona plays its home matches?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Camp Nou',
+      'Santiago Bernabeau',
+      'Anfield',
+      'Emirates Stadium',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Who is the current coach of the English national soccer team?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Gareth Southgate',
+      'Jurgen Klopp',
+      'Pep Guardiola',
+      'Jose Mourinho',
     ],
   ),
 ];
