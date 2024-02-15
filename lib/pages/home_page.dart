@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
           const SizedBox(
             height: 80,
           ),
-          Text("Learn Flutter the fun way!",
+          Text("Football Trivia",
               style: GoogleFonts.lato(
                   color: const Color.fromARGB(144, 255, 255, 255),
                   fontSize: 24)),
